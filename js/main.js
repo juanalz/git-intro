@@ -1,7 +1,9 @@
-function presionar() {
-    alert('Presionaste este botón');
-}
-
-function sumar(num1, num2) {
-    console.log(num1 + num2);
+function restar() {
+    let numUno = document.getElementById("varUno").value;
+    let numDos = document.getElementById("varDos").value;
+    console.log(numUno)
+    console.log(numDos)
+    let resultado = parseInt(numUno) - parseInt(numDos);
+    document.getElementById("resultado").innerText = resultado;
+    console.log(resultado);
 }
